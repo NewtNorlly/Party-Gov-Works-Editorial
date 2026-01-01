@@ -1,10 +1,11 @@
 # 党政文集编辑室
 
-🎉🎉🎉  
-![彩带礼炮动图](https://s1.aigei.com/src/img/gif/01/01b2cd769a5041a4bc6c3b00b045ed88.gif?imageMogr2/auto-orient/thumbnail/!282x282r/gravity/Center/crop/282x282/quality/85/%7CimageView2/2/w/282&e=2051020800&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:4uX3pO1PI2QtG3-Yb28Sk5y9prE=)
-🎉🎉🎉
-
+<div style="text-align: center;">
+🎉🎉🎉<br>
+![彩带礼炮动图](https://s1.aigei.com/src/img/gif/01/01b2cd769a5041a4bc6c3b00b045ed88.gif?imageMogr2/auto-orient/thumbnail/!282x282r/gravity/Center/crop/282x282/quality/85/%7CimageView2/2/w/282&e=2051020800&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:4uX3pO1PI2QtG3-Yb28Sk5y9prE=)<br>
+🎉🎉🎉<br><br>
 ![党政主题动图](https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oMjxBAAEQDBfRJkrE0FEAIDIl6BjGDAQIpfyGe?lk3s=fd16085b&x-expires=1767276000&x-signature=YFedveQJjYboiDZK4WbWdiceekk%3D&from=4246079579)
+</div>
 
 <div style="text-align: center; margin: -20px 0 30px; font-size: 1.2rem; color: #00bcd4; font-weight: 600;">
   📝 党政推文标准化写作 · 活动素材专业编辑
