@@ -85,9 +85,15 @@ Party-Gov-Works-Editorial/
 
 ## 🎮 趣味彩蛋
 
-<div style="text-align: center; margin: 20px 0;"><!-- 第一个图片及说明 --><img src="https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oUdFAxAOEEsmVmAAAAoykDACZInZNFAfgAeFBx?lk3s=fd16085b&x-expires=1767276000&x-signature=WLJ0kGKUwUCgs%2B6cH2eyN0IA1MY%3D&from=4246079579" style="width: 300px; border-radius: 8px;"><p style="color: #c8cbd1; font-size: 0.9rem; margin-top: 10px;">工作间隙放松一下~</p>
-<img src="https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oMjxBAAEQDBfRJkrE0FEAIDIl6BjGDAQIpfyGe?lk3s=fd16085b&x-expires=176727600" style="width: 300px; border-radius: 8px; margin-top: 15px;"><p style="color: #c8cbd1; font-size: 0.9rem; margin-top: 10px;">仓库主人的状态~</p>
-<img src="https://p11-sign.douyinpic.com/obj/tos-cn-o-0812/osvHzITBaLJHOugVAASAgBlpsU89iPMEBA9iI?lk3s=fd16085b&x-expires=1767279600&x-signature=dng8EYdbtZbfxfeZ0ius4KxCIrU%3D&from=4246079579" style="width: 300px; border-radius: 8px; margin-top: 15px;"><p style="color: #c8cbd1; font-size: 0.9rem; margin-top: 10px;">随手记录瞬间~</p></div>
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oUdFAxAOEEsmVmAAAAoykDACZInZNFAfgAeFBx?lk3s=fd16085b&x-expires=1767276000&x-signature=WLJ0kGKUwUCgs%2B6cH2eyN0IA1MY%3D&from=4246079579" style="width: 300px; border-radius: 8px;">
+  <p style="color: #c8cbd1; font-size: 0.9rem; margin-top: 10px;">工作间隙放松一下~</p>
+  <p style="color: #333; font-size: 1rem; margin: 20px 0;">仓库主人的状态</p>
+  <div style="margin-top: 15px;">
+    <p style="color: #666; font-size: 0.95rem;">做蛋糕的奶龙：</p>
+    <img src="https://p3-sign.douyinpic.com/obj/tos-cn-i-3jr8j4ixpe/1a8291e008e240bdb71ff0aedb463be8?lk3s=fd16085b&x-expires=1767279600&x-signature=pksz0ePoguCR0en1wtvA0baESGc%3D&from=4246079579" style="width: 300px; border-radius: 8px; margin-top: 8px;">
+  </div>
+</div>
 
 
 ## 🚀 快速开始克隆仓库
