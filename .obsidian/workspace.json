@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "beautitab-react-view",
+              "state": {},
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d909007197aacb66",
+    "type": "split",
+    "children": [
+      {
+        "id": "9cef35ba51326496",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b4fb7009797dd14",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "218c0761ad7f2815",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "68120f4d48632857",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "7d8aadaa6875f7fd",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          },
+          {
+            "id": "be9caa3c548b8b05",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "bcfdeec2810eb841",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1a87c78af9e1c81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd2a979d829f0f55",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "b87cc63d6c6860e8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "87bcd58d1c3aeb68",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "638b05acf653d431",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "quiet-outline"
+            }
+          },
+          {
+            "id": "0c5846cc4b29923e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 278.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:创建新数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
+      "templater-obsidian:Templater": false,
+      "i18n:I18N": false,
+      "homepage:打开主页": false,
+      "obsidian42-brat:BRAT": false
+    }
+  },
+  "active": "68120f4d48632857",
+  "lastOpenFiles": [
+    "柴桑笔记/话语体系（用于党建研学）.md",
+    "柴桑笔记/话语体系（用于党建研学）.pdf",
+    "~$楚韵文脉，厚植文化自信——公共管理学院省博主题参观活动圆满完成.docx",
+    "探寻楚韵文脉，厚植文化自信——公共管理学院省博主题参观活动圆满完成.md",
+    "参考资料/省博参观/省博感想4.md",
+    "参考资料/省博参观/省博感想1.md",
+    "图像合集/省博感想 (1).png",
+    "学习传统文化，传承文化薪火——公共管理学院本科党务中心湖北省博物馆参观活动顺利举行.md",
+    "“探寻楚韵文脉，厚植文化自信”参观湖北省博物馆活动策划.md",
+    "喻家文集/党建专栏  心有光，入红巷！公管学院体育学院分党校赴武汉革命博物馆研学.md",
+    "AI 指令/整理出话语体系.md",
+    "如何写推文.jpg",
+    "AI 指令/ChatGPT文本分段.md",
+    "喻家文集/党建专栏  心有光，入红巷！公管学院体育学院分党校赴武汉革命博物馆研学.pdf",
+    "喻家文集/党建相关/党建专栏｜心有光，入红巷！公管学院体育学院分党校赴武汉革命博物馆研学.md",
+    "图像合集/省博感想 (4).png",
+    "参考资料/省博参观/在博物馆里上好“大思政课”-光明日报-光明网.md",
+    "参考资料/省博参观/在博物馆里上好“大思政课”-光明日报-光明网.pdf",
+    "参考资料/省博参观/新生引航我院2025级新生赴中国传媒大学校史馆及传媒博物馆开展知校荣校爱校主题教育.md",
+    "参考资料/省博参观/新生引航我院2025级新生赴中国传媒大学校史馆及传媒博物馆开展知校荣校爱校主题教育.pdf",
+    "参考资料/省博参观/新华网文化观察丨高校博物馆：大学里的“大学”-新华网.md",
+    "参考资料/省博参观/新华网文化观察丨高校博物馆：大学里的“大学”-新华网.pdf",
+    "参考资料/省博参观/西安交大党委组织部（党校）党支部开展 “听党指挥 薪火百年”主题党日活动-西安交通大学新闻网.md",
+    "参考资料/省博参观/西安交大党委组织部（党校）党支部开展 “听党指挥 薪火百年”主题党日活动-西安交通大学新闻网.pdf",
+    "参考资料/省博参观/物理学院本科生党支部联合北京大学元培学院第二学生党支部赴中国电影博物馆开展主题党日活动-新闻网.md",
+    "参考资料/省博参观/物理学院本科生党支部联合北京大学元培学院第二学生党支部赴中国电影博物馆开展主题党日活动-新闻网.pdf",
+    "参考资料/省博参观/文物见证复兴路，薪火相传赤子心——学院本科生第一、第二党支部组织联合党日活动.md",
+    "参考资料/省博参观/文物见证复兴路，薪火相传赤子心——学院本科生第一、第二党支部组织联合党日活动.pdf",
+    "参考资料/省博参观/溯历史之源强根脉 怀赤子之心赴新途——法学院研究生党支部赴山东省博物馆开展主题党日活动-济南大学.md",
+    "参考资料/省博参观/溯历史之源强根脉 怀赤子之心赴新途——法学院研究生党支部赴山东省博物馆开展主题党日活动-济南大学.pdf",
+    "参考资料/省博参观/硕士研究生第三党支部、第五党支部联合开展主题党日活动-四川大学马克思主义学院.md",
+    "参考资料/省博参观/让老文物“活”起来 让思政课“香”起来_先锋文汇_共产党员网.md",
+    "参考资料/省博参观/强国有我 争做时代新人——2025行走的思政课丨与文物“对话”感受中华文明_腾讯新闻.md",
+    "参考资料/省博参观/离退休干部局组织党员干部前往中国传媒大学传媒博物馆开展参观学习活动.md",
+    "参考资料/省博参观/借智博物馆打造“行走的思政课堂”_先锋文汇_共产党员网.md",
+    "参考资料/省博参观/黑龙江省各地持续开展博物馆里过“七一”活动_央广网.md",
+    "参考资料/省博参观/感悟历史魅力 凝聚奋进力量——我院检验科党支部参观市博物馆开展支部立项活动_党建工作_党群园地_河西学院附属张掖人民医院.md",
+    "参考资料/省博参观/场馆里的思政课——兰理工学子赴省博研学活动纪实-兰州理工大学.md",
+    "图像合集/省博感想 (3).png",
+    "图像合集/省博感想 (2).png",
+    "图像合集/紫菘广场迎新点6.jpg",
+    "图像合集/紫菘广场迎新点5.jpg",
+    "图像合集/紫菘广场迎新点4.jpg",
+    "图像合集/紫菘广场迎新点3.jpg",
+    "图像合集/紫菘广场迎新点2.jpg",
+    "未命名.canvas",
+    "the Attic/示例看板.canvas",
+    "the Attic/同步方式.canvas",
+    "obsidian-tasks-main/obsidian-tasks-main/resources/sample_vaults/Tasks-Demo/Manual Testing/Frontmatter/Frontmatter code.canvas",
+    "the Attic/示例白板.canvas"
+  ]
+}
