@@ -109,6 +109,7 @@ git push
 
 ## ✉️ 版权与联系方式
 <div style="background-color: #e0e3f5; padding: 20px; border-radius: 8px; text-align: center; margin-top: 30px; border: 1px solid #d2d4d5;">© 2026 柴桑（NewtNolly）<br><br>📧 联系邮箱：newtnolly@outlook.com<br>📄 许可协议： <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" style="color: #00bcd4; text-decoration: none; font-weight: 600;"> CC BY-NC-SA 4.0（非商用共享） </a><br>⚠️ 说明：本仓库内容仅用于党建学习与党政宣传规范化参考，严禁用于商业用途及违规宣传。</div>
-![作者的状态](https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oMjxBAAEQDBfRJkrE0FEAIDIl6BjGDAQIpfyGe?lk3s=fd16085b&x-expires=1767276000&x-signature=YFedveQJjYboiDZK4WbWdiceekk%3D&from=4246079579)
+
+![仓库主人的状态](https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oMjxBAAEQDBfRJkrE0FEAIDIl6BjGDAQIpfyGe?lk3s=fd16085b&x-expires=176727600)
 
 
