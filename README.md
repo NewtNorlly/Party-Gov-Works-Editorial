@@ -12,11 +12,13 @@
 ![做蛋糕的奶龙](https://p26-sign.douyinpic.com/obj/tos-cn-i-3jr8j4ixpe/1a8291e008e240bdb71ff0aedb463be8?lk3s=fd16085b&x-expires=1767312000&x-signature=9WslQdQUwKLjEIRtiCeI6ohgcw0%3D&from=4246079579)
 
 <div style="background-color: #fafcff; padding: 15px; border-radius: 8px; border-left: 4px solid #a6baff;">
+
 本仓库系 <strong>华中科技大学公共管理学院党建工作中心宣传部</strong> 的资料图文云端共享资源，集中存放并系统整理党建工作与党政宣传相关的文本、素材与研究成果。 
 
 目前，已将本人在实际工作与学习过程中形成的 <strong>个人笔记、阅读文献、研究论文、阶段性成果以及编辑修改记录</strong> 全量托管至 GitHub 平台，采用 <strong>全面开源、持续迭代</strong> 的方式进行统一管理，作为长期可查、可用、可传承的公共资料库，留作今后学习与研究者（包括后来的“小登”）参考使用。
 
 依托 GitHub 强大的版本管理机制，本仓库能够完整保留每一次编辑与结构调整的历史记录，清晰呈现内容演进过程，有效解决传统写作中“未及时保存”“版本丢失”等问题，为党政宣传内容的规范化生产与经验沉淀提供可靠工具支撑。
+
 </div>
 
 
