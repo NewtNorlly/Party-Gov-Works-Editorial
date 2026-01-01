@@ -84,7 +84,10 @@ Party-Gov-Works-Editorial/
 
 
 ## 🎮 趣味彩蛋
-<div style="text-align: center; margin: 20px 0;"> <img src="https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oUdFAxAOEEsmVmAAAAoykDACZInZNFAfgAeFBx?lk3s=fd16085b&x-expires=1767276000&x-signature=WLJ0kGKUwUCgs%2B6cH2eyN0IA1MY%3D&from=4246079579" style="width: 300px; border-radius: 8px;"> <p style="color: #c8cbd1; font-size: 0.9rem; margin-top: 10px;">工作间隙放松一下~</p> </div>
+
+<div style="text-align: center; margin: 20px 0;"><!-- 第一个图片及说明 --><img src="https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oUdFAxAOEEsmVmAAAAoykDACZInZNFAfgAeFBx?lk3s=fd16085b&x-expires=1767276000&x-signature=WLJ0kGKUwUCgs%2B6cH2eyN0IA1MY%3D&from=4246079579" style="width: 300px; border-radius: 8px;"><p style="color: #c8cbd1; font-size: 0.9rem; margin-top: 10px;">工作间隙放松一下~</p>
+<img src="https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oMjxBAAEQDBfRJkrE0FEAIDIl6BjGDAQIpfyGe?lk3s=fd16085b&x-expires=176727600" style="width: 300px; border-radius: 8px; margin-top: 15px;"><p style="color: #c8cbd1; font-size: 0.9rem; margin-top: 10px;">仓库主人的状态~</p>
+<img src="https://p11-sign.douyinpic.com/obj/tos-cn-o-0812/osvHzITBaLJHOugVAASAgBlpsU89iPMEBA9iI?lk3s=fd16085b&x-expires=1767279600&x-signature=dng8EYdbtZbfxfeZ0ius4KxCIrU%3D&from=4246079579" style="width: 300px; border-radius: 8px; margin-top: 15px;"><p style="color: #c8cbd1; font-size: 0.9rem; margin-top: 10px;">随手记录瞬间~</p></div>
 
 
 ## 🚀 快速开始克隆仓库
@@ -109,7 +112,5 @@ git push
 
 ## ✉️ 版权与联系方式
 <div style="background-color: #e0e3f5; padding: 20px; border-radius: 8px; text-align: center; margin-top: 30px; border: 1px solid #d2d4d5;">© 2026 柴桑（NewtNolly）<br><br>📧 联系邮箱：newtnolly@outlook.com<br>📄 许可协议： <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" style="color: #00bcd4; text-decoration: none; font-weight: 600;"> CC BY-NC-SA 4.0（非商用共享） </a><br>⚠️ 说明：本仓库内容仅用于党建学习与党政宣传规范化参考，严禁用于商业用途及违规宣传。</div>
-
-![仓库主人的状态](https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oMjxBAAEQDBfRJkrE0FEAIDIl6BjGDAQIpfyGe?lk3s=fd16085b&x-expires=176727600)
 
 
