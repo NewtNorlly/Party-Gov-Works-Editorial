@@ -1,7 +1,6 @@
 # 党政文集编辑室
 
 ![彩带礼炮动图](https://s1.aigei.com/src/img/gif/01/01b2cd769a5041a4bc6c3b00b045ed88.gif?imageMogr2/auto-orient/thumbnail/!282x282r/gravity/Center/crop/282x282/quality/85/%7CimageView2/2/w/282&e=2051020800&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:4uX3pO1PI2QtG3-Yb28Sk5y9prE=)
-![党政主题动图](https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oMjxBAAEQDBfRJkrE0FEAIDIl6BjGDAQIpfyGe?lk3s=fd16085b&x-expires=1767276000&x-signature=YFedveQJjYboiDZK4WbWdiceekk%3D&from=4246079579)
 
 <div style="font-size: 1.2rem; color: #00bcd4; font-weight: 600; margin: 10px 0 30px;">
   📝 党政推文标准化写作 · 活动素材专业编辑
@@ -110,3 +109,6 @@ git push
 
 ## ✉️ 版权与联系方式
 <div style="background-color: #e0e3f5; padding: 20px; border-radius: 8px; text-align: center; margin-top: 30px; border: 1px solid #d2d4d5;">© 2026 柴桑（NewtNolly）<br><br>📧 联系邮箱：newtnolly@outlook.com<br>📄 许可协议： <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" style="color: #00bcd4; text-decoration: none; font-weight: 600;"> CC BY-NC-SA 4.0（非商用共享） </a><br>⚠️ 说明：本仓库内容仅用于党建学习与党政宣传规范化参考，严禁用于商业用途及违规宣传。</div>
+![作者的状态](https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oMjxBAAEQDBfRJkrE0FEAIDIl6BjGDAQIpfyGe?lk3s=fd16085b&x-expires=1767276000&x-signature=YFedveQJjYboiDZK4WbWdiceekk%3D&from=4246079579)
+
+
