@@ -1,238 +1,88 @@
-<!-- 超炫启动页：全屏渐变背景+大尺寸动图 -->
-<div style="
-  background: linear-gradient(135deg, #fafcff 0%, #e0e3f5 100%);
-  padding: 60px 20px;
-  border-radius: 20px;
-  text-align: center;
-  box-shadow: 0 8px 24px rgba(166, 186, 255, 0.3);
-  margin-bottom: 40px;
-">
-  <!-- 主视觉动图（你提供的第一个动图） -->
-  <img 
-    src="https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oMjxBAAEQDBfRJkrE0FEAIDIl6BjGDAQIpfyGe?lk3s=fd16085b&x-expires=1767276000&x-signature=YFedveQJjYboiDZK4WbWdiceekk%3D&from=4246079579" 
-    style="width: 280px; border-radius: 16px; margin: 0 auto 30px; transition: transform 0.3s ease;"
-    onmouseover="this.style.transform='scale(1.05)'"
-    onmouseout="this.style.transform='scale(1)'"
-    alt="炫酷主视觉动图"
-  >
-
-  <!-- 渐变文字标题 -->
-  <h1 style="
-    font-size: 4rem;
-    background: linear-gradient(90deg, #000000 0%, #00bcd4 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    margin: 0;
-    font-weight: 900;
-  ">
-    Party-Gov-Works-Editorial
-  </h1>
-
-  <!-- 动态高亮Slogan -->
-  <p style="
-    font-size: 1.5rem;
-    color: #000000;
-    background-color: #ffcb6b;
-    padding: 12px 30px;
-    border-radius: 30px;
-    display: inline-block;
-    margin-top: 20px;
-    box-shadow: 0 4px 12px rgba(255, 203, 107, 0.4);
-    transition: all 0.3s ease;
-  " onmouseover="this.style.boxShadow='0 6px 16px rgba(255, 203, 107, 0.6)'" onmouseout="this.style.boxShadow='0 4px 12px rgba(255, 203, 107, 0.4)'">
-    🚀 政务内容编辑 · 高效资源管理 · 全流程工具集
-  </p>
+# 党政文集编辑室
+![党政主题动图](https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oMjxBAAEQDBfRJkrE0FEAIDIl6BjGDAQIpfyGe?lk3s=fd16085b&x-expires=1767276000&x-signature=YFedveQJjYboiDZK4WbWdiceekk%3D&from=4246079579)
+<div style="text-align: center; margin: -20px 0 30px; font-size: 1.2rem; color: #00bcd4; font-weight: 600;">
+  📝 党政推文标准化写作 · 活动素材专业编辑
 </div>
 
-
-<!-- 功能亮点：双栏卡片+hover动画 -->
-<div style="display: flex; gap: 20px; margin: 40px 0; flex-wrap: wrap;">
-  <!-- 卡片1：AI辅助编辑 -->
-  <div style="
-    flex: 1;
-    min-width: 300px;
-    background-color: #e6f7ef;
-    padding: 30px;
-    border-radius: 16px;
-    box-shadow: 0 4px 12px rgba(156, 236, 235, 0.2);
-    transition: all 0.3s ease;
-  " onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(156, 236, 235, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(156, 236, 235, 0.2)'">
-    <h3 style="color: #00bcd4; font-size: 1.8rem; margin-top: 0;">🤖 AI辅助编辑</h3>
-    <p style="font-size: 1rem; line-height: 1.7; color: #000000;">
-      内置政务场景AI指令库，支持文稿润色、格式标准化、术语校验，一键提升编辑效率。
-    </p>
-  </div>
-
-  <!-- 卡片2：资源聚合 -->
-  <div style="
-    flex: 1;
-    min-width: 300px;
-    background-color: #fffff7;
-    padding: 30px;
-    border-radius: 16px;
-    box-shadow: 0 4px 12px rgba(255, 203, 107, 0.1);
-    transition: all 0.3s ease;
-  " onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(255, 203, 107, 0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(255, 203, 107, 0.1)'">
-    <h3 style="color: #ffcb6b; font-size: 1.8rem; margin-top: 0;">📦 资源聚合管理</h3>
-    <p style="font-size: 1rem; line-height: 1.7; color: #000000;">
-      分类存储参考资料、文稿模板、视觉素材，支持快速检索，实现政务资源全链路管理。
-    </p>
-  </div>
+## 📋 编辑室简介
+<div style="background-color: #fafcff; padding: 15px; border-radius: 8px; border-left: 4px solid #a6baff;">
+本仓库聚焦党政类活动推文、专题文集的标准化编辑工作，整合「推文写作方法论」「活动摄影技巧」「素材管理规范」等核心内容，为党政宣传内容创作提供全流程指导与资源支撑。
 </div>
 
+## 📝 核心指南：党政推文写作
+### 一、推文写作核心原则
+1. **政治准确**：严守宣传口径，确保政策表述、术语使用符合官方规范
+2. **逻辑清晰**：遵循「背景-内容-意义」叙事结构，突出活动核心价值
+3. **语言精炼**：避免冗余表述，多用官方规范表述，兼顾可读性与严肃性
+4. **格式统一**：标题层级、标点使用、排版样式严格遵循党政文稿规范
 
-<!-- 文件结构：带图标+折叠感布局 -->
-<div style="
-  background-color: #fafcff;
-  padding: 30px;
-  border-radius: 16px;
-  border-left: 6px solid #a6baff;
-  box-shadow: 0 4px 12px rgba(166, 186, 255, 0.1);
-  margin: 40px 0;
-">
-  <h2 style="color: #000000; font-size: 2rem; margin-top: 0;">📂 核心文件结构</h2>
-  <ul style="
-    list-style-type: none;
-    padding-left: 0;
-    font-size: 1.1rem;
-    line-height: 2;
-  ">
-    <li style="padding: 8px 0; border-bottom: 1px solid #d2d4d5;">
-      <span style="color: #FCB4D3; font-weight: bold;">▶</span> <code>.idea/</code> — IDE配置文件
-    </li>
-    <li style="padding: 8px 0; border-bottom: 1px solid #d2d4d5;">
-      <span style="color: #FCB4D3; font-weight: bold;">▶</span> <code>.makemd/</code> — MakeMD工具配置
-    </li>
-    <li style="padding: 8px 0; border-bottom: 1px solid #d2d4d5;">
-      <span style="color: #FCB4D3; font-weight: bold;">▶</span> <code>AI指令/</code> — 政务场景AI提示词库
-    </li>
-    <li style="padding: 8px 0; border-bottom: 1px solid #d2d4d5;">
-      <span style="color: #FCB4D3; font-weight: bold;">▶</span> <code>参考资料/</code> — 政策文件、案例素材
-    </li>
-    <li style="padding: 8px 0; border-bottom: 1px solid #d2d4d5;">
-      <span style="color: #FCB4D3; font-weight: bold;">▶</span> <code>喻家文集/</code> — 专题文稿合集
-    </li>
-    <li style="padding: 8px 0;">
-      <span style="color: #FCB4D3; font-weight: bold;">▶</span> <code>柴桑笔记/</code> — 编辑思路与草稿
-    </li>
-  </ul>
+### 二、推文标题写作技巧
+| 标题类型       | 示例                          | 适用场景                |
+|----------------|-------------------------------|-------------------------|
+| 政策解读型     | 「XX政策」解读：XX工作怎么干？ | 政策宣贯类推文          |
+| 活动纪实型     | XX活动圆满举办：凝聚力量促发展 | 线下活动总结类推文      |
+| 经验分享型     | XX单位：以XX举措推动XX工作落地 | 典型经验推广类推文      |
+
+### 三、正文写作规范
+1. **开头**：简明说明活动/政策背景，控制在100字以内
+2. **主体**：分点阐述核心内容，每段不超过3行，重点内容加粗标注
+3. **结尾**：总结意义/提出要求，呼应开头，强化宣传导向
+
+### 四、排版与格式要求
+- 字体：正文使用宋体/仿宋，标题使用黑体，字号统一（标题二号、正文小四）
+- 行距：正文行间距1.5倍，段落间距2字符
+- 标点：使用全角标点，数字/英文使用半角，符合党政文稿排版规范
+- 配图：图片需贴合主题，标注来源，尺寸统一（宽度800px）
+
+## 📷 配套指南：活动摄影技巧
+### 一、摄影核心要求
+- **构图原则**：突出主体（人物/活动场景），避免画面杂乱，符合党政宣传视觉规范
+- **光线控制**：优先使用自然光，室内活动保证光线充足，避免面部阴影
+- **角度选择**：正式活动多用正面/45°角拍摄，突出庄重感；纪实场景可灵活调整
+- **画质要求**：保证画面清晰，无模糊/过曝，分辨率不低于1920×1080
+
+### 二、不同场景拍摄要点
+1. **会议场景**：
+   - 拍摄主席台：全景+特写结合，确保参会领导入镜完整、画面端正
+   - 拍摄互动环节：捕捉发言、讨论等动态画面，体现会议氛围与参与度
+   - 拍摄材料：清晰拍摄会议文件、笔记等细节，突出会议核心内容
+2. **户外活动**：
+   - 结合环境特征，突出活动主题与地域特色，体现现场氛围
+   - 抓拍人物真实状态，兼顾画面美感与内容真实性，避免摆拍痕迹
+   - 远景+近景结合，展现活动规模与细节
+3. **素材整理**：
+   - 按「场景-人物-细节」分类归档，命名格式：XX活动-XX场景-日期.jpg
+   - 筛选后保留高清原图，标注拍摄时间、地点、人物信息，便于检索
+   - 敏感画面需审核后归档，确保符合宣传规范
+
+## 📂 仓库文件结构
+Party-Gov-Works-Editorial/├── AI 指令 / # 党政推文写作 AI 辅助指令库（含润色 / 排版 / 术语校验）├── 参考资料 / # 官方政策文件、优秀推文案例、摄影构图参考├── 摄影素材 / # 活动摄影样片、合规配图模板、后期调色参考├── 写作模板 / # 不同类型推文标准化模板（政策解读 / 活动纪实 / 经验分享）├── 排版规范 / # 党政文稿排版格式手册、字体 / 行距配置说明└── 柴桑笔记 / # 编辑思路、修改记录、经验总结、常见问题解答
+plaintext
+
+## 🎮 趣味彩蛋
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oUdFAxAOEEsmVmAAAAoykDACZInZNFAfgAeFBx?lk3s=fd16085b&x-expires=1767276000&x-signature=WLJ0kGKUwUCgs%2B6cH2eyN0IA1MY%3D&from=4246079579" style="width: 300px; border-radius: 8px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+  <p style="color: #c8cbd1; font-size: 0.9rem; margin-top: 10px;">工作间隙放松一下~</p>
 </div>
 
-
-<!-- 趣味动图彩蛋：第二个动图+悬浮效果 -->
-<div style="text-align: center; margin: 50px 0;">
-  <h3 style="
-    font-size: 1.8rem;
-    color: #FCB4D3;
-    margin-bottom: 20px;
-  ">🎮 摸鱼时刻（点我动起来）</h3>
-  <img 
-    src="https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oUdFAxAOEEsmVmAAAAoykDACZInZNFAfgAeFBx?lk3s=fd16085b&x-expires=1767276000&x-signature=WLJ0kGKUwUCgs%2B6cH2eyN0IA1MY%3D&from=4246079579" 
-    style="
-      width: 320px;
-      border-radius: 20px;
-      box-shadow: 0 8px 24px rgba(252, 180, 211, 0.3);
-      transition: all 0.5s ease;
-    "
-    onmouseover="this.style.transform='scale(1.08)'"
-    onmouseout="this.style.transform='scale(1)'"
-    alt="趣味彩蛋动图"
-  >
-</div>
-
-
-<!-- 使用指引：简洁步骤+图标 -->
-<div style="
-  background: linear-gradient(180deg, #e0e3f5 0%, #fafcff 100%);
-  padding: 30px;
-  border-radius: 16px;
-  margin: 40px 0;
-">
-  <h2 style="color: #000000; font-size: 2rem; margin-top: 0; text-align: center;">🚀 快速开始</h2>
-  <ol style="
-    list-style-type: none;
-    padding-left: 0;
-    max-width: 800px;
-    margin: 0 auto;
-  ">
-    <li style="
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      margin: 20px 0;
-      font-size: 1.1rem;
-    ">
-      <div style="
-        background-color: #00bcd4;
-        color: white;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: bold;
-      ">1</div>
-      <span>克隆仓库：<code>git clone https://github.com/NewtNolly/Party-Gov-Works-Editorial.git</code></span>
-    </li>
-    <li style="
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      margin: 20px 0;
-      font-size: 1.1rem;
-    ">
-      <div style="
-        background-color: #00bcd4;
-        color: white;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: bold;
-      ">2</div>
-      <span>打开资源目录，直接使用对应分类下的素材/工具</span>
-    </li>
-    <li style="
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      margin: 20px 0;
-      font-size: 1.1rem;
-    ">
-      <div style="
-        background-color: #00bcd4;
-        color: white;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: bold;
-      ">3</div>
-      <span>编辑后提交更新：<code>git add . && git commit -m "更新内容描述" && git push</code></span>
-    </li>
-  </ol>
-</div>
-
-
-<!-- 版权区：渐变底部栏 -->
-<div style="
-  background: linear-gradient(90deg, #a6baff 0%, #FCB4D3 100%);
-  padding: 25px;
-  text-align: center;
-  border-radius: 16px;
-  margin-top: 60px;
-  color: #000000;
-">
-  <p style="font-size: 1.1rem; margin: 0;">© 2026 柴桑（NewtNolly） | 政务内容编辑工具集</p>
-  <p style="font-size: 0.9rem; margin: 10px 0 0; opacity: 0.8;">
-    邮箱：newtnolly@outlook.com | 许可协议：<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" style="color: #000000; font-weight: bold; text-decoration: none;">CC BY-NC-SA 4.0（非商用共享）</a>
-  </p>
-</div>
+## 🚀 快速开始
+1. 克隆仓库到本地：
+   ```bash
+   git clone https://github.com/NewtNolly/Party-Gov-Works-Editorial.git
+按需使用对应资源：
+写作：查阅「写作模板」目录，选择匹配场景的模板直接填充内容
+摄影：参考「摄影素材」目录的样片，按「摄影技巧」规范拍摄 / 整理素材
+排版：依据「排版规范」手册，统一文稿格式
+本地修改后提交更新：
+bash
+运行
+# 暂存修改
+git add .
+# 提交说明（建议按规范写）
+git commit -m "更新：XX类型推文模板/XX场景摄影样片"
+# 推送到远程仓库
+git push
+📞 版权与联系方式
+<div style="background-color: #e0e3f5; padding: 20px; border-radius: 8px; text-align: center; margin-top: 30px; border: 1px solid #d2d4d5;">© 2026 柴桑（NewtNolly）<br><br>📧 联系邮箱：newtnolly@outlook.com<br>📄 许可协议：<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" style="color: #00bcd4; text-decoration: none; font-weight: 600;">CC BY-NC-SA 4.0（非商用共享）</a><br>⚠️ 说明：本仓库内容仅用于党政宣传内容规范化编辑参考，严禁用于商业用途及违规宣传。</div>
 
 
