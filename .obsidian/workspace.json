@@ -11,9 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "beautitab-react-view",
-              "state": {},
-              "title": "New tab"
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -80,7 +85,7 @@
             }
           },
           {
-            "id": "db5e3db39433f4ec",
+            "id": "63be7c9740c301aa",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -193,7 +198,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "68120f4d48632857",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "柴桑笔记/话语体系（用于党建研学）.md",
     "柴桑笔记/话语体系（用于党建研学）.pdf",

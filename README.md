@@ -8,6 +8,9 @@
 
 
 ## 📋 编辑室简介
+
+![奶龙做蛋糕](https://i1.hdslb.com/bfs/new_dyn/a37a7573d83993c36ab998d6be5d8ca2628576425.gif@264w_264h_1e_1c.avif)
+
 <div style="background-color: #fafcff; padding: 15px; border-radius: 8px; border-left: 4px solid #a6baff;">
 本仓库系 <strong>华中科技大学公共管理学院党建工作中心宣传部</strong> 的资料图文云端共享资源，集中存放并系统整理党建工作与党政宣传相关的文本、素材与研究成果。 
 
@@ -85,18 +88,14 @@ Party-Gov-Works-Editorial/
 
 ## 🎮 趣味彩蛋
 
-<div style="text-align: center; margin: 20px 0;">
-  <img src="https://p3-sign.douyinpic.com/obj/tos-cn-o-0812/oUdFAxAOEEsmVmAAAAoykDACZInZNFAfgAeFBx?lk3s=fd16085b&x-expires=1767276000&x-signature=WLJ0kGKUwUCgs%2B6cH2eyN0IA1MY%3D&from=4246079579" style="width: 300px; border-radius: 8px;">
-  <p style="color: #c8cbd1; font-size: 0.9rem; margin-top: 10px;">工作间隙放松一下~</p>
+![工作间隙放松一下~](https://i1.hdslb.com/bfs/new_dyn/1659535f66e75c25d0aa216ec6f4b6fd628576425.gif@264w_264h_1e_1c.avif)
 
-  <img src="https://p11-sign.douyinpic.com/obj/tos-cn-o-0812/osvHzITBaLJHOugVAASAgBlpsU89iPMEBA9iI?lk3s=fd16085b&x-expires=1767279600&x-signature=dng8EYdbtZbfxfeZ0ius4KxCIrU%3D&from=4246079579" style="width: 300px; border-radius: 8px;">
-  
-  <p style="color: #333; font-size: 1rem; margin: 20px 0;">仓库主人的状态</p>
-  <div style="margin-top: 15px;">
-    <p style="color: #666; font-size: 0.95rem;">做蛋糕的奶龙：</p>
-    <img src="https://p3-sign.douyinpic.com/obj/tos-cn-i-3jr8j4ixpe/1a8291e008e240bdb71ff0aedb463be8?lk3s=fd16085b&x-expires=1767279600&x-signature=pksz0ePoguCR0en1wtvA0baESGc%3D&from=4246079579" style="width: 300px; border-radius: 8px; margin-top: 8px;">
-  </div>
-</div>
+工作间隙放松一下~
+
+
+![仓库主人的状态](https://i1.hdslb.com/bfs/new_dyn/15f95d18b0503a2c07c04794427d128b628576425.gif@264w_264h_1e_1c.avif)
+
+仓库主人的状态~
 
 
 ## 🚀 快速开始克隆仓库
