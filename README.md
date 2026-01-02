@@ -182,12 +182,12 @@ Party-Gov-Works-Editorial/
 
 ## 🎮 趣味彩蛋
 
-![工作间隙放松一下~](https://i1.hdslb.com/bfs/new_dyn/1659535f66e75c25d0aa216ec6f4b6fd628576425.gif@264w_264h_1e_1c.avif)
+![工作间隙放松一下~](https://i1.hdslb.com/bfs/new_dyn/1659535f66e75c25d0aa216ec6f4b6fd628576425.gif@264w_264h_1e_1c.webp)
 
 工作间隙放松一下~
 
 
-![仓库主人的状态](https://i1.hdslb.com/bfs/new_dyn/15f95d18b0503a2c07c04794427d128b628576425.gif@264w_264h_1e_1c.avif)
+![仓库主人的状态](https://i1.hdslb.com/bfs/new_dyn/15f95d18b0503a2c07c04794427d128b628576425.gif@264w_264h_1e_1c.webp)
 
 仓库主人的状态~
 
