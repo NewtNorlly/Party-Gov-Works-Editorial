@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>__TITLE__</title>
+<style>
+  :root {
+    --paper: #f5f0e8;
+    --card: #fffef9;
+    --accent: #c9a96e;
+    --accent-dark: #a6884a;
+    --text: #3a3226;
+    --text-light: #7a6e5e;
+    --border: #e0d8c8;
+    --wortschatz: #6a9e7b;
+    --grammatik: #8a6fb5;
+    --redemittel: #c9a96e;
+    --sprichwort: #c9a96e;
+  }
+  body {
+    font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+    background: var(--paper);
+    color: var(--text);
+    margin: 0; padding: 20px;
+    display: flex; flex-direction: column; align-items: center;
+    min-height: 100vh;
+  }
+  h1 { font-size: 20px; margin-bottom: 8px; color: var(--accent-dark); text-align: center; }
+  .subtitle { font-size: 20px; color: var(--text-light); margin-bottom: 12px; text-align: center; }
+  .progress-bar { width: 320px; height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; margin-bottom: 8px; }
+  .progress-fill { height: 100%; background: var(--accent); transition: width 0.3s; }
+  .page-info { font-size: 20px; color: var(--text-light); margin-bottom: 10px; }
+  .dots { display: flex; gap: 6px; margin-bottom: 15px; flex-wrap: wrap; justify-content: center; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--border); cursor: pointer; transition: transform 0.2s; }
+  .dot:hover { transform: scale(1.3); }
+  .dot.active { background: var(--accent); }
+  .dot.grammatik { background: var(--grammatik); }
+  .dot.redemittel { background: var(--redemittel); }
+  .dot.wortschatz { background: var(--wortschatz); }
+  .dot.sprichwort { background: var(--sprichwort); }
+  .dot.uebung { background: var(--redemittel); }
+  .dot.vokabel { background: var(--wortschatz); }
+  .dot.practice { background: var(--redemittel); }
+  .dot.concept { background: var(--wortschatz); }
+  .dot.rule { background: var(--grammatik); }
+  .card-container { perspective: 1000px; width: 90%; max-width: 750px; height: 550px; margin-bottom: 16px; }
+  .card { width: 100%; height: 100%; position: relative; transform-style: preserve-3d; transition: transform 0.5s; cursor: pointer; }
+  .card.flipped { transform: rotateY(180deg); }
+  .card-face { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); background: var(--card); padding: 25px; box-sizing: border-box; overflow-y: auto; }
+  .card-back { transform: rotateY(180deg); }
+  .card-number { font-size: 20px; color: var(--text-light); margin-bottom: 6px; }
+  .card-label { display: inline-block; padding: 2px 10px; border-radius: 10px; font-size: 20px; margin-bottom: 8px; color: #fff; }
+  .label-grammatik { background: #8e7cc3; }
+  .label-vokabel   { background: #5ba35b; }
+  .label-uebung    { background: #c9a12e; }
+  .label-redemittel { background: #c9a12e; }
+  .label-sprichwort { background: #c9a12e; }
+  .label-practice  { background: #c9a12e; }
+  .label-concept   { background: #5ba35b; }
+  .label-rule      { background: #8e7cc3; }
+  .front-text { font-size: 20px; line-height: 1.6; white-space: pre-wrap; }
+  .front-text table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 20px; }
+  .front-text th, .front-text td { border: 1px solid var(--border); padding: 6px 8px; text-align: left; }
+  .front-text th { background: #f5f0e8; font-weight: 600; }
+  .back-section { margin-bottom: 10px; }
+  .back-mirror { font-size: 20px; line-height: 1.6; }
+  .back-mirror table { width: 100%; border-collapse: collapse; margin: 6px 0; font-size: 20px; }
+  .back-mirror th, .back-mirror td { border: 1px solid var(--border); padding: 6px 8px; text-align: left; }
+  .back-mirror th { background: #f5f0e8; font-weight: 600; }
+  .back-mirror strong { font-size: 20px; }
+  .back-title { font-size: 20px; font-weight: 600; color: var(--accent-dark); margin-bottom: 4px; }
+  .back-content { font-size: 20px; line-height: 1.6; }
+  .back-content table { width: 100%; border-collapse: collapse; margin: 6px 0; font-size: 20px; }
+  .back-content th, .back-content td { border: 1px solid var(--border); padding: 6px 8px; text-align: left; }
+  .back-content th { background: #f5f0e8; font-weight: 600; }
+  .preview-note { font-size: 20px; background: #f9f5ed; padding: 8px 12px; border-radius: 6px; margin-top: 8px; line-height: 1.6; }
+  .back-divider { border: none; border-top: 2px dashed #e0d8c8; margin: 12px 0; }
+  .buttons { display: flex; gap: 15px; margin-bottom: 12px; }
+  button { padding: 10px 25px; border: none; border-radius: 8px; background: var(--accent); color: #fff; font-size: 20px; cursor: pointer; transition: background 0.2s; }
+  button:disabled { opacity: 0.4; cursor: default; }
+  .key-hint { font-size: 20px; color: var(--text-light); margin-bottom: 10px; }
+  .complete { display: none; text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; }
+  .complete h2 { color: var(--accent-dark); margin-bottom: 15px; font-size: 20px; }
+  .complete p { color: var(--text-light); margin-bottom: 20px; font-size: 20px; }
+</style>
+</head>
+<body>
+
+<h1>__H1__</h1>
+<div class="subtitle">Flash Cards · 共 <span id="totalCards">__COUNT__</span> 张 · 点击卡片翻转</div>
+
+<div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+<div class="page-info" id="progressText">Card 1 / __COUNT__</div>
+
+<div class="dots" id="dots"></div>
+
+<div class="card-container">
+  <div class="card" id="card" onclick="flipCard()">
+    <div class="card-face card-front" id="front"></div>
+    <div class="card-face card-back" id="back"></div>
+  </div>
+</div>
+
+<div class="buttons">
+  <button id="prevBtn" onclick="prevCard()">← 上一张</button>
+  <button id="nextBtn" onclick="nextCard()">下一张 →</button>
+</div>
+<div class="key-hint">← → 切换卡片 ｜ Enter/空格 翻转 ｜ 点击卡片翻转</div>
+
+<div class="complete" id="completeScreen">
+  <h2>🎉 __COMPLETE_MSG__</h2>
+  <p>建议休息片刻后再复习一遍，巩固记忆。</p>
+  <button onclick="restart()">重新开始</button>
+</div>
+
+<script>
+__CARDS_PLACEHOLDER__
+
+var current = 0;
+
+function render() {
+  var card = cards[current];
+  document.getElementById("front").innerHTML =
+    '<div class="card-number">Card ' + (current + 1) + '</div>' +
+    '<div class="card-label label-' + card.cat + '">' + card.label + '</div>' +
+    '<div class="front-text">' + card.front + '</div>';
+  document.getElementById("back").innerHTML =
+    '<div class="card-number">Card ' + (current + 1) + '</div>' +
+    '<div class="card-label label-' + card.cat + '">' + card.label + '</div>' +
+    card.back;
+
+  document.getElementById("progressText").textContent = "Card " + (current + 1) + " / " + cards.length;
+  document.getElementById("progressFill").style.width = ((current + 1) / cards.length * 100) + "%";
+
+  document.getElementById("prevBtn").disabled = (current === 0);
+  document.getElementById("nextBtn").disabled = false;
+
+  var cardEl = document.getElementById("card");
+  cardEl.className = cardEl.className.replace(" flipped", "");
+
+  var dots = document.getElementById("dots").children;
+  for (var i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+    if (i === current) dots[i].className += " active";
+  }
+}
+
+function flipCard() {
+  var cardEl = document.getElementById("card");
+  if (cardEl.className.indexOf("flipped") === -1) {
+    cardEl.className += " flipped";
+  } else {
+    cardEl.className = cardEl.className.replace(" flipped", "");
+  }
+}
+
+function nextCard() {
+  if (current < cards.length - 1) {
+    current++;
+    render();
+  } else {
+    setTimeout(function() {
+      document.getElementById("card").style.display = "none";
+      document.getElementById("dots").style.display = "none";
+      document.getElementById("prevBtn").style.display = "none";
+      document.getElementById("nextBtn").style.display = "none";
+      document.getElementById("completeScreen").style.display = "block";
+      document.getElementById("progressText").style.display = "none";
+      document.getElementById("progressFill").parentElement.style.display = "none";
+      document.getElementsByClassName("key-hint")[0].style.display = "none";
+    }, 400);
+  }
+}
+
+function prevCard() {
+  if (current > 0) {
+    current--;
+    render();
+  }
+}
+
+function restart() {
+  current = 0;
+  document.getElementById("card").style.display = "";
+  document.getElementById("dots").style.display = "";
+  document.getElementById("prevBtn").style.display = "";
+  document.getElementById("nextBtn").style.display = "";
+  document.getElementById("completeScreen").style.display = "none";
+  document.getElementById("progressText").style.display = "";
+  document.getElementById("progressFill").parentElement.style.display = "";
+  document.getElementsByClassName("key-hint")[0].style.display = "";
+  render();
+}
+
+document.addEventListener("keydown", function(e) {
+  if (e.key === "ArrowRight") nextCard();
+  if (e.key === "ArrowLeft") prevCard();
+  if (e.key === " " || e.key === "Enter") flipCard();
+});
+
+function initDots() {
+  var container = document.getElementById("dots");
+  for (var i = 0; i < cards.length; i++) {
+    var dot = document.createElement("div");
+    dot.className = "dot " + cards[i].cat;
+    dot.onclick = (function(idx) {
+      return function() {
+        current = idx;
+        render();
+      };
+    })(i);
+    container.appendChild(dot);
+  }
+}
+
+initDots();
+render();
+</script>
+</body>
+</html>
